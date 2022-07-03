@@ -1,0 +1,87 @@
+* {
+    font-family:"Verdana", "Arial", sans-serif;
+    line-height: 1.5;
+}
+/* Das Hintergrundbild stammt von der Seite pixabay.com */
+body {
+    background: #ad151c url(tannen2.jpg) fixed;
+    margin: 0;
+    font: normal
+    small-caps
+    lighter
+    medium
+}
+div {
+    background: white;
+    width: 60%;
+    margin: 0px auto;
+    padding: 1.5% 1%;
+}
+h1 {
+    margin-top: 0;
+}
+h1, h3 {
+    background: #ad151c;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 2px 2px 5px gray;
+    text-shadow: 1px 1px 1px gray;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+h4, h5 {
+    text-decoration: underline;
+    color: #ad151c;
+}
+/* Die Fotos, die ich für meine Seite vorgesehen haben, habe ich aus rechtlichen Gründen nicht geschickt (Urheberrechte),
+dafür zeigen sich Rahmen und Beschreibungen. */
+img {
+    float: right;
+    padding: 1%;
+    border:2px solid #ad151c;
+}
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+nav a {
+    color: #ad151c;
+    font-style: italic;
+}
+label, textarea {
+    font-style: italic;
+}
+textarea, input {
+    background-color: #f7d7d7;
+    border: 2px solid #ad151c;
+    outline: none;
+    box-shadow: 2px 2px 5px gray;
+}
+nav ul {
+    background-color: #f7d7d7;
+    margin: 0;
+    text-align: left;
+    list-style-type: none;
+}
+nav ul li {
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+}
+nav ul li a {
+    color: #ad151c;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background-color: #ad151c;
+}
+nav ul li:hover a {
+    color: white;
+}
+
+
+
+
+
